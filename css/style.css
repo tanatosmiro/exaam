@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Sans:400,700');
+body{
+	margin: 0;
+}
+body, html{
+	min-height: 100%;
+	width: 100%;
+}
+/* Layout */
+.ba-container{
+	font: 'Raleway', sans-serif;
+	width: 100%;
+	
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-header{
+	width: 100%;
+	background: rgba(255, 255, 255, 0.521);
+	position: fixed;
+	display: inline-block;
+	
+	
+}
+.ba-logo{
+	float: left;
+	padding-left: 200px;
+	padding-top: 20px;
+}
+.ba-float-right{
+	display: inline-block;	
+	color: #000;
+	float: right;
+	
+}
+.ba-travely{
+	padding-left: 40%;
+	color:  #fd5c08;
+	width: 190px;
+	height: 30px;
+}
+.ba-container a{
+	color: #000;
+	text-decoration: none;
+	
+}
+.ba-main-nav li:hover{
+	background:  #fd5c08;
+	color: #fff; 
+}
+.ba-main-nav li{
+	padding: 30px;
+	display: inline-block;
+	
+}
+.ba-main-nav{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.ba-intro{
+	
+	color: #FFF;
+    max-height: 860px;;
+    background: #4e72f9 url(../img/intro.png) 50% no-repeat/cover;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ba-container--intro {
+	width: 100%;
+	text-align: left;
+	color:  #ffffff;
+	font-size: 38px;
+}
+.ba-firsttitle{
+	padding-left: 19.5%;
+	color:  #ffffff;
+	font-size: 19px;
+	text-align: left;
+	text-decoration: none;
+
+	
+}
+.ba-title{
+	padding-left: 19.5%;
+}
+.ba-text{
+	font-size: 19px;
+	line-height: 28px;
+	padding-left: 19.5%;
+}
+.ba-cities{
+	margin-top: 60px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	background:  url(../img/worldmap.png) 50% no-repeat/cover;
+	/* max-height: 1264px; */
+
+}
+.ba-columnone{
+	top: 0;
+}
+.ba-tail{
+	padding-top: 10px;
+}
+.ba-cities-list{
+	font-weight: none;
+	padding-left: 19.3%;
+	font-size: 34px;
+	float: left;
+	line-height: 40px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	list-style-type: none;
+	
+}
+.ba-subtitle{
+	font-weight: 800;
+	color:  #fd5c08;
+	font-size: 80px;/* Приближение из-за подстановки шрифтов */
+	
+}
+.ba-second{
+	float: right;
+	color:  #3f3e41;
+	font-size: 19px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 28px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.ba-grid-100{
+	/* width: 100%; */
+	padding: 20%;
+	
+}
+p, h1{
+	margin: 0 auto;
+}
+.ba-grid{
+	margin: 0;
+	width: 33%;	
+	display: inline-block;
+	
+}
+.ba-width-33{
+	/* width: 33%; */
+}
+.ba-bestoffers{
+	color: #FFF;
+    max-height: 860px;;
+    background: #4e72f9 url(../img/bestoffers.png) 50% no-repeat/cover;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ba-bestoffers p{
+	color: #fff;
+	font-size: 19px;
+	text-align: center;
+}
+.ba-offers{
+	font-size: 30px;
+}
+.ba-bestoffers .ba-title{
+	color: #fff;
+	font-size: 38px;
+	line-height: 7.488px;
+	text-align: center;
+	padding: 10px;
+}
+.ba-kenya{
+	width: 770px;
+	padding-left: 30%;
+	padding-top: 5%;
+}
+.ba-africa{
+} 
+.ba-find{
+	color: #000;
+    max-height: 350px;;
+    background: #4e72f9 url(../img/findout.png) 50% no-repeat/cover;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ba-find .ba-subtittle{
+	color:  #fd5c08;
+	font-size: 80px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 80px;/* Приближение из-за подстановки шрифтов */
+	text-align: center
+}
+.ba-find .ba-tittle{
+	color:  #3f3e41;
+	font-size: 34px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 40px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.ba-hotoffers{
+	color: #000;
+    max-height: 770px;;
+    background: #4e72f9 url(../img/hotoffers.png) 50% no-repeat/cover;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ba-long{
+	width: 270px;
+	padding-left: 10%;
+}
+.ba-taiwan{
+	width: 650px;
+	padding-left: 40%;
+}
+.ba-maps{
+	margin-top: 50px;
+	width: 100%;
+	height: 600px;
+}
+.ba-footer{
+	background-color: #fd5c08;
+	width: 100%;
+	height: 214px; 
+}
+.ba-list-footer{
+	padding-left: 15%;
+}
+.ba-list-footer li{
+	display: inline-block;
+	padding-top: 74px ;	
+	padding-left: 10px;
+}
+.ba-icon{
+	width: 50px;
+	list-style: none;
+}

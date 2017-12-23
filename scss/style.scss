@@ -1,0 +1,87 @@
+@import "normalize";
+@import "layout";
+
+body{
+	margin: 0;
+}
+
+
+
+/* Layout */
+.ba-container{
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	border: 1px solid ddd;
+	padding: 5px 10px;
+	background: #fff;
+	border-radius: 6px;
+
+}
+.ba-travel{
+	text-decoration: none;
+	
+}
+.ba-header{
+}
+.ba-float-right{
+	display: inline-block;	
+	float: right;
+	
+}
+.ba-travely{
+	color:  #fd5c08;
+	width: 190px;
+	height: 30px;
+}
+.ba-main-nav{
+	display: inline-block;
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+/* .ba-intro{
+	color: #FFF;
+    min-height: calc(100vh - 95px);
+    background: #4e72f9 url(../img/intro.png) 50% no-repeat/cover;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ba-container--intro {
+	width: 100%;
+} */
